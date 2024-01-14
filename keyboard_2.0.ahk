@@ -1,6 +1,7 @@
 ﻿global SoundOutputState
 
-HideTrayTip(wait_time := 1250) {
+Notification(title, text := "", wait_time := 1250) {
+	Traytip text, title
 	Sleep(wait_time)
 	TrayTip
 }
@@ -29,13 +30,11 @@ SetAudio(id) {
 	global SoundOutputState
 	Run Format("C:\Software\nircmd\nircmd.exe setdefaultsounddevice {1:s}", AudioIdMap[id])
 	SoundOutputState := id
-	TrayTip Format('Sound output switched to {1:s}', StrLower(AudioIdMap[id])), AudioIdMap[id]
-	HideTrayTip()
+	Notification(AudioIdMap[id], Format('Sound output switched to {1:s}', StrLower(AudioIdMap[id])))
 }
 
 QwertyFonctionsNotification(state) {
-	TrayTip Format('Turned {1:s} Qwerty fonctions', state), Format('Qwerty fn {1:s}', state)
-	HideTrayTip()
+	Notification(Format('Qwerty fn {1:s}', state), Format('Turned {1:s} Qwerty fonctions', state))
 }
 
 OpenFirefox() {
@@ -78,5 +77,4 @@ f22:: CycleAudio()
 !+^#s:: QwertyFonctionsNotification("on")
 !+^#z:: QwertyFonctionsNotification("off")
 
-TrayTip 'You may now use your hotkeys', 'Autohotkey script activated'
-HideTrayTip()
+Notification('Autohotkey script activated', 'You may now use your hotkeys')
