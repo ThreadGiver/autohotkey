@@ -1,0 +1,77 @@
+[
+  [
+    {
+      "a": 7
+    },
+    "Tab",
+    {
+      "a": 5
+    },
+    "\n@\n\n\n\n\n,",
+    "\n[\n\n\n\n\n.",
+    "\n]\n\n\n\n\n.",
+    "\n?\n\n\n\n\nP",
+    "\n%\n\n\n\n\nY",
+    "\n-\n\n\n\n\nF",
+    "\n7\n\n\n\n\nG",
+    "\n8\n\n\n\n\nC",
+    "\n9\n\n\n\n\nR",
+    "\n+\n\n\n\n\nL"
+  ],
+  [
+    {
+      "a": 7
+    },
+    "⇐",
+    {
+      "a": 5
+    },
+    "\n$\n\n\n\n\nA",
+    "\n(\n\n\n\n\nO",
+    "\n)\n\n\n\n\nE",
+    "\n\\\n\n\n\n\nU",
+    "\n#\n\n\n\n\nI",
+    "\n^\n\n\n\n\nD",
+    "\n4\n\n\n\n\nH",
+    "\n5\n\n\n\n\nT",
+    "\n6\n\n\n\n\nN",
+    "\n/\n\n\n\n\nS"
+  ],
+  [
+    {
+      "a": 7
+    },
+    "Shift",
+    {
+      "a": 5
+    },
+    "\n&\n\n\n\n\n;",
+    "\n{\n\n\n\n\nQ",
+    "\n}\n\n\n\n\nJ",
+    "\n!\n\n\n\n\nK",
+    "\n=\n\n\n\n\nX",
+    "\n0\n\n\n\n\nB",
+    "\n1\n\n\n\n\nM",
+    "\n2\n\n\n\n\nW",
+    "\n3\n\n\n\n\nV",
+    "\n*\n\n\n\n\nZ"
+  ],
+  [
+    {
+      "a": 7
+    },
+    "Fn",
+    "Ctrl",
+    "Alt",
+    "Super",
+    "&dArr;",
+    {
+      "w": 2
+    },
+    "",
+    "&uArr;",
+    "",
+    "",
+    ""
+  ]
+]

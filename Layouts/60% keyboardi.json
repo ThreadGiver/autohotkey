@@ -1,0 +1,163 @@
+[
+  [
+    {
+      "a": 6
+    },
+    "\n\n~\n\n\n\n\n\n`",
+    {
+      "a": 4
+    },
+    "\n\n\n\n\n\n\n!\nF1\n1",
+    "\n\n\n\n\n\n\n@\nF2\n2",
+    "\n\n\n\n\n\n\n#\nF3\n3",
+    "\n\n\n\n\n\n\n$\nF4\n4",
+    "\n\n\n\n\n\n\n%\nF5\n5",
+    "\n\n\n\n\n\n\n^\nF6\n6",
+    "\n\n\n\n\n\n\n&\nF7\n7",
+    "\n\n\n\n\n\n\n*\nF8\n8",
+    "\n\n\n\n\n\n\n(\nF9\n9",
+    "\n\n\n\n\n\n\n)\nF10\n0",
+    "\n\n\n\n\n\n\n{\nF11\n[",
+    "\n\n\n\n\n\n\n}\nF12\n]",
+    {
+      "a": 7,
+      "w": 2
+    },
+    "<i class='kb kb-Unicode-BackSpace-DeleteLeft-Big'></i>"
+  ],
+  [
+    {
+      "w": 1.5
+    },
+    "Tab",
+    {
+      "a": 4,
+      "f": 2
+    },
+    "\n\n\n\n\n\n\n\"\n<i class='kb kb-Multimedia-Play-Pause'></i>\n,",
+    "\n\n\n\n\n\n\n<\n<i class='kb kb-Multimedia-Volume-Down-2'></i>\n.",
+    "\n\n\n\n\n\n\n>\n<i class='kb kb-Multimedia-Volume-Up-1'></i>\n.",
+    {
+      "a": 5
+    },
+    "<i class='kb kb-Multimedia-Rewind'></i>\n\n\n\n\n\nP",
+    "<i class='kb kb-Multimedia-FastForwar'></i>\n\n\n\n\n\nY",
+    "PgUp\n\n\n\n\n\nF",
+    "&crarr;\n\n\n\n\n\nG",
+    "&uarr;\n\n\n\n\n\nC",
+    "<i class='kb kb-Hamburger-Menu'></i>\n\n\n\n\n\nR",
+    "esc\n\n\n\n\n\nL",
+    {
+      "a": 6,
+      "f": 3
+    },
+    "\n\n?\n\n\n\n\n\n/",
+    "\n\n+\n\n\n\n\n\n=",
+    {
+      "w": 1.5
+    },
+    "\n\n|\n\n\n\n\n\n\\"
+  ],
+  [
+    {
+      "a": 7,
+      "w": 1.75
+    },
+    "Caps\n\n\n\nFn1",
+    {
+      "a": 5,
+      "f": 2
+    },
+    "Del\n\n\n\n\n\nA",
+    "Home\n\n\n\n\n\nO",
+    "End\n\n\n\n\n\nE",
+    "É\n\n\n\n\n\nU",
+    "À\n\n\n\n\n\nI",
+    "PgDn\n\n\n\n\n\nD",
+    "&larr;\n\n\n\n\n\nH",
+    "&darr;\n\n\n\n\n\nT",
+    "&rarr;\n\n\n\n\n\nN",
+    "<i class='kb kb-Unicode-BackSpace-DeleteLeft-Big'></i>\n\n\n\n\n\nS",
+    {
+      "a": 6,
+      "f": 3
+    },
+    "\n\n_\n\n\n\n\n\n-",
+    {
+      "a": 7,
+      "w": 2.25
+    },
+    "&crarr;"
+  ],
+  [
+    {
+      "w": 2.25
+    },
+    "Shift",
+    {
+      "a": 4,
+      "f": 2
+    },
+    "\n\n\n\n\n\n\n:\nPrtSc\n;",
+    {
+      "a": 5
+    },
+    "Ins\n\n\n\n\n\nQ",
+    "Ê\n\n\n\n\n\nJ",
+    "È\n\n\n\n\n\nK",
+    {
+      "a": 7
+    },
+    "X",
+    {
+      "a": 5
+    },
+    "<i class='kb kb-Multimedia-Mute-1'></i>\n\n\n\n\n\nB",
+    "Ç\n\n\n\n\n\nM",
+    "Û\n\n\n\n\n\nW",
+    "Ù\n\n\n\n\n\nV",
+    "Ï\n\n\n\n\n\nZ",
+    {
+      "f": 3,
+      "w": 2.75
+    },
+    "\nShift"
+  ],
+  [
+    {
+      "a": 7,
+      "w": 1.25
+    },
+    "Ctrl",
+    {
+      "w": 1.25
+    },
+    "Super",
+    {
+      "w": 1.25
+    },
+    "Alt",
+    {
+      "f": 2,
+      "w": 6.25
+    },
+    "Space",
+    {
+      "f": 3,
+      "w": 1.25
+    },
+    "Alt",
+    {
+      "w": 1.25
+    },
+    "Fn1",
+    {
+      "w": 1.25
+    },
+    "Fn2",
+    {
+      "w": 1.25
+    },
+    "Ctrl"
+  ]
+]
