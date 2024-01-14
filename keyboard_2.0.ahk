@@ -57,6 +57,21 @@ OpenSchoolPortal() {
 	Run "https://uqo.ca/user"
 }
 
+AutoSwitchToEarbuds() {
+	if not RunWait(
+		A_ComSpec ' /C "C:\Software\EndPointcontroller.exe | findstr Earbuds"', , "Hide"
+	) {
+		global SoundOutputState
+		If (!IsSet(SoundOutputState)) {
+			SoundOutputState := 0
+		}
+		If (SoundOutputState == 0) {
+			SetAudio(1)
+		}
+	}
+}
+
+; SetTimer(AutoSwitchToEarbuds, 1000)
 
 f13:: OpenFirefox()
 f14:: OpenOnedrive()
@@ -74,16 +89,3 @@ f22:: CycleAudio()
 !+^#z:: Notification('Turned off Qwerty fonctions')
 
 Notification('Autohotkey script activated', 'You may now use your hotkeys')
-
-while true {
-	Sleep(1000)
-
-	if not RunWait(A_ComSpec ' /C "C:\Software\EndPointcontroller.exe | findstr Earbuds"') {
-		If (!IsSet(SoundOutputState)) {
-			SoundOutputState := 0
-		}
-		If (SoundOutputState == 0) {
-			SetAudio(1)
-		}
-	}
-}
