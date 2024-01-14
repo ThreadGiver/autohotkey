@@ -5,9 +5,6 @@ HideTrayTip(wait_time := 1250) {
 	TrayTip
 }
 
-TrayTip 'You may now use your hotkeys', 'Autohotkey script activated'
-HideTrayTip()
-
 AudioIdMap := Map(
 	1, "Earbuds",
 	2, "Panel",
@@ -80,3 +77,6 @@ f22:: CycleAudio()
 ; f24::
 !+^#s:: QwertyFonctionsNotification("on")
 !+^#z:: QwertyFonctionsNotification("off")
+
+TrayTip 'You may now use your hotkeys', 'Autohotkey script activated'
+HideTrayTip()
