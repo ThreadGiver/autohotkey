@@ -38,7 +38,7 @@ OpenFirefox() {
 }
 
 OpenOnedrive() {
-	Run "C:\Users\Adrien\OneDrive - Université du Québec en Outaouais\École\Session A23"
+	Run "C:\Users\Adrien\OneDrive - USherbrooke\École\Session H24"
 }
 
 OpenCalendar() {
