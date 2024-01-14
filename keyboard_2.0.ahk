@@ -2,12 +2,7 @@
 
 HideTrayTip(wait_time := 1250) {
 	Sleep(wait_time)
-	TrayTip  ; Attempt to hide it the normal way.
-	;if SubStr(A_OSVersion,1,3) = "10." {
-	;    Menu Tray, NoIcon
-	;    Sleep 200  ; It may be necessary to adjust this sleep.
-	;    Menu Tray, Icon
-	;}
+	TrayTip
 }
 
 TrayTip 'You may now use your hotkeys', 'Autohotkey script activated'
