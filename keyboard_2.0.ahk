@@ -33,10 +33,6 @@ SetAudio(id) {
 	Notification(AudioIdMap[id], Format('Sound output switched to {1:s}', StrLower(AudioIdMap[id])))
 }
 
-QwertyFonctionsNotification(state) {
-	Notification(Format('Qwerty fn {1:s}', state), Format('Turned {1:s} Qwerty fonctions', state))
-}
-
 OpenFirefox() {
 	Run "C:\Program Files\Mozilla Firefox\firefox.exe"
 }
@@ -74,7 +70,7 @@ f21:: SetAudio(0)
 f22:: CycleAudio()
 ; f23::
 ; f24::
-!+^#s:: QwertyFonctionsNotification("on")
-!+^#z:: QwertyFonctionsNotification("off")
+!+^#s:: Notification('Turned on Qwerty fonctions')
+!+^#z:: Notification('Turned off Qwerty fonctions')
 
 Notification('Autohotkey script activated', 'You may now use your hotkeys')
