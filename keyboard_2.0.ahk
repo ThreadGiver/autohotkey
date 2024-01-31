@@ -73,16 +73,16 @@ AutoSwitchToEarbuds() {
 
 ; SetTimer(AutoSwitchToEarbuds, 1000)
 
-f13:: OpenFirefox()
-f14:: OpenOnedrive()
-f15:: OpenCalendar()
-f16:: OpenSpotify()
-f17:: OpenDowloads()
-f18:: OpenSchoolPortal()
-f19:: SetAudio(1)
-f20:: SetAudio(2)
-f21:: SetAudio(0)
-f22:: CycleAudio()
+!+^#1:: OpenFirefox()
+!+^#2:: OpenOnedrive()
+!+^#3:: OpenCalendar()
+!+^#4:: OpenSpotify()
+!+^#5:: OpenDowloads()
+!+^#6:: OpenSchoolPortal()
+!+^#7:: SetAudio(1)
+!+^#8:: SetAudio(2)
+!+^#9:: SetAudio(0)
+!+^#0:: CycleAudio()
 ; f23::
 ; f24::
 !+^#s:: Notification('Turned on Qwerty fonctions')
