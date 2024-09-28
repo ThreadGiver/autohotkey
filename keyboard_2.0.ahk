@@ -34,11 +34,11 @@ SetAudio(id) {
 }
 
 OpenFirefox() {
-	Run "C:\Program Files\Mozilla Firefox\firefox.exe"
+	Run "C:\Program Files\Mozilla Firefox\firefox.exe -new-window"
 }
 
 OpenOnedrive() {
-	Run "C:\Users\Adrien\OneDrive - USherbrooke\École\Session H24"
+	Run "C:\Users\Adrien\OneDrive - USherbrooke\École\Session A24"
 }
 
 OpenCalendar() {
@@ -54,7 +54,7 @@ OpenDowloads() {
 }
 
 OpenSchoolPortal() {
-	Run "https://uqo.ca/user"
+	Run "https://turnin.dinf.usherbrooke.ca/"
 }
 
 AutoSwitchToEarbuds() {
